@@ -20,7 +20,7 @@ namespace PracticeProduct
             Price = price;
             Stock = stock;
         }
-
+        // increase stock
         public void IncreaseStock(int amount)
         {
             Stock += amount;
