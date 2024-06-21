@@ -26,6 +26,7 @@ namespace PracticeProduct
             Stock += amount;
         }
 
+        // decrease stock
         public void DecreaseStock(int amount)
         {
             Stock -= amount;
